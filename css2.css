@@ -1,0 +1,46 @@
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 29px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+    text-decoration: none;
+}
+
+li a:active {
+    color: brown;
+}
+
+.round {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px black;
+    padding: 17px 10px 10px 25px;
+}
+
+.search {
+    position: absolute;
+    top: 14px;
+    right: 50px;
+    width: 300px;
+}
+
+.colour {
+    color: green;
+}
